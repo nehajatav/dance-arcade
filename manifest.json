@@ -1,0 +1,13 @@
+{
+  "name": "Paro's Bday",
+  "description": "Game built on Paro's 26th bday on 26th of Jan",
+  "version": "0.1",
+  "manifest_version": 2,
+  "minimum_chrome_version": "23",
+  "app": {
+    "background": {
+      "scripts": ["background.js"]
+    }
+  },
+  "icons": { "16": "bday-16.png", "128": "bday-128.png" }
+}
